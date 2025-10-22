@@ -31,11 +31,14 @@ and **GridSearchCV** --- achieved **96.3% accuracy**.
 
   Model               Accuracy    Remarks
   ------------------- ----------- -----------------------
-  **Random Forest**   **96.3%**   Best performer
-  XGBoost             95.5%       Excellent alternative
-  Gradient Boosting   94.3%       Strong performer
-  KNN                 82.0%       Moderate
-  AdaBoost            61.6%       Underperformed
+  **Random Forest**   **96.16%**   Best performer
+  XGBoost             95.52%       Excellent alternative
+  Gradient Boosting   94.33%       Strong performer
+  Decision Tree       93.03%       Good performer
+  AdaBoost            92.00%       Good performer
+  GaussianNB          87.53%       Moderate
+  KNN                 82.0%        Moderate
+  
 
 ------------------------------------------------------------------------
 
