@@ -6,7 +6,7 @@ This project predicts a customer's **Credit Category** (Good, Standard,
 or Poor) based on financial and behavioral data. It covers data
 preprocessing, feature selection, model training, and deployment. The
 final model --- a **Random Forest Classifier** optimized with **RFE**
-and **GridSearchCV** --- achieved **96.3% accuracy**.
+and **GridSearchCV** --- achieved **96.14% accuracy**.
 
 ------------------------------------------------------------------------
 
@@ -29,15 +29,15 @@ and **GridSearchCV** --- achieved **96.3% accuracy**.
 
 ## 📊 Results
 
-  Model               Accuracy    Remarks
-  ------------------- ----------- -----------------------
--  **Random Forest**   **96.16%**   Best performer
--  XGBoost             95.52%       Excellent alternative
--  Gradient Boosting   94.33%       Strong performer
--  Decision Tree       93.03%       Good performer
--  AdaBoost            92.00%       Good performer
--  GaussianNB          87.53%       Moderate
--  KNN                 82.0%        Moderate
+ |Model               |Accuracy    |Remarks                |
+ |------------------  |----------- |-----------------------|
+ |**Random Forest**   |**96.16%**  | Best performer        |
+ | XGBoost            |95.52%      | Excellent alternative |
+ | Gradient Boosting  |94.33%      | Strong performer      |
+ | Decision Tree      |93.03%      | Good performer        |
+ | AdaBoost           |92.00%      | Good performer        |
+ | GaussianNB         |87.53%      | Moderate              |
+ | KNN                |82.0%       | Moderate              |
   
 
 ------------------------------------------------------------------------
